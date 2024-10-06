@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         webView = findViewById(R.id.webView)
         webView.settings.javaScriptEnabled = true // Enable JavaScript if needed for your website
-        webView.settings.userAgentString = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+        //webView.settings.userAgentString = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
         webView.webViewClient = WebViewClient()   // Ensures links open inside WebView
         webView.settings.useWideViewPort = true
         webView.settings.loadWithOverviewMode = true
